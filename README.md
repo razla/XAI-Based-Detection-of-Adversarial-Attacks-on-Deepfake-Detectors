@@ -1,7 +1,12 @@
-# Attack Detection On Deepfake Detector
+# XAI-Based Detection of Adversarial Attacks on Deepfake Detectors
 
-[Paper](https://arxiv.org/abs/2403.02955)
+## This paper was accepted to Transactions on Machine Learning Research 2024 (TMLR 2024)
 
+Code accompanying the paper:
+[XAI-Based Detection of Adversarial Attacks on Deepfake Detectors", Transactions on Machine Learning Research, 2024](https://openreview.net/forum?id=7pBKrcn199).
+
+### Abstract:
+We introduce a novel methodology for identifying adversarial attacks on deepfake detectors using eXplainable Artificial Intelligence (XAI). In an era characterized by digital advancement, deepfakes have emerged as a potent tool, creating a demand for efficient detection systems. However, these systems are frequently targeted by adversarial attacks that inhibit their performance. We address this gap, developing a defensible deepfake detector by leveraging the power of XAI. The proposed methodology uses XAI to generate interpretability maps for a given method, providing explicit visualizations of decision-making factors within the AI models. We subsequently employ a pretrained feature extractor that processes both the input image and its corresponding XAI image. The feature embeddings extracted from this process are then used for training a simple yet effective classifier. Our approach contributes not only to the detection of deepfakes but also enhances the understanding of possible adversarial attacks, pinpointing potential vulnerabilities. Furthermore, this approach does not change the performance of the deepfake detector. The paper demonstrates promising results suggesting a potential pathway for future deepfake detection mechanisms. We believe this study will serve as a valuable contribution to the community, sparking much-needed discourse on safeguarding deepfake detectors.
 ## Setup Requirements
 
 The code is based on PyTorch 2.0.1 with CUDA 11.7 and requires Python 3.9
