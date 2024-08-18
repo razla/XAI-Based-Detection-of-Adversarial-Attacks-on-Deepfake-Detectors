@@ -1,0 +1,13 @@
+*__pycache__
+*experiment_log_temp.txt
+*.pyc
+*sanity.py
+*.DS_Store
+*.avi
+*.json
+*.zip
+*.png
+*.mp4
+*.h5
+.idea
+faceforensics++_models_subset
